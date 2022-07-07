@@ -1,0 +1,80 @@
+#map { height: 800px; }
+
+#sideBar{
+    right: 2%;
+    top: 2%;
+    width: 30%;
+    min-width: 460px;
+    height: 175px;
+    max-height: 90%;
+    z-index: 10000;
+    position: absolute;
+}
+
+#infoTab{
+    width: 30%;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    z-index: 10000;
+}
+
+.infoContent{
+    padding: 5%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: white;
+    max-height: 500px !important;
+    overflow-y: scroll;
+}
+
+#infoHeader{
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5%;
+}
+
+input[type="text"], input[type="number"]{
+    padding: 2%;
+    border-radius: 5px;
+    width: 200px;
+    border-color: #2222224d;
+}
+
+.blue-btn{
+    padding: 2%;
+    border-radius: 5px;
+    border-color: #2222224d;
+    background-color: #0000ff9e;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled{
+    background-color: #dddddd;
+    cursor: default;
+}
+
+.column1 {
+    float: left;
+    width: 40%;
+  }
+
+.column2 {
+float: left;
+width: 60%;
+}
+
+.row{
+    margin: 2%;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
